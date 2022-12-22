@@ -1,0 +1,42 @@
+#input{
+    width: 200px;
+}
+#movies{
+    width: 205px;
+    height: 200px;
+    border-top: none;
+    overflow: scroll;
+    position: absolute;
+}
+#movies>img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+}
+p{
+    margin:0px;
+    height:32px;
+    max-width:100%;
+}
+body{
+    background-color: rgb(92, 87, 87);
+}
+#show_movies>img{
+    width: 100%;
+}
+#show_movies{
+    margin-top: 20px;
+    text-align: center;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
